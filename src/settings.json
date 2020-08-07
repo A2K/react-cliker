@@ -1,0 +1,48 @@
+{
+    "Businesses": [
+        { "Name": "Lemonade Stand", "BaseLevel": 1, "BaseCost": 10, "BaseProfit": 5, "BaseTime": 1.0,
+            "Icon": { "Name": "lemon", "Color": "yellow" } },
+        { "Name": "Newspaper Delivery", "BaseCost": 60, "BaseProfit": 25, "BaseTime": 3.0,
+            "Icon": { "Name": "newspaper", "Color": "white" } },
+        { "Name": "Car Wash", "BaseCost": 720, "BaseProfit": 100, "BaseTime": 7.0,
+            "Icon": { "Name": "car", "Color": "red" } },
+        { "Name": "Pizza Delivery", "BaseCost": 8640, "BaseProfit": 500, "BaseTime": 13.0,
+            "Icon": { "Name": "pizza-slice", "Color": "orange" } },
+        { "Name": "Cookie Shop", "BaseCost": 103680, "BaseProfit": 10000, "BaseTime": 21.0,
+            "Icon": { "Name": "cookie", "Color": "#efa801" } },
+        { "Name": "Fishing Boat", "BaseCost": 1244160, "BaseProfit": 100000, "BaseTime": 33.0,
+            "Icon": { "Name": "fish", "Color": "#2222ff" } },
+        { "Name": "Football Team", "BaseCost": 14929920, "BaseProfit": 500000, "BaseTime": 47.0,
+            "Icon": { "Name": "football-ball", "Color": "#992222" } },
+        { "Name": "Movie Studio", "BaseCost": 179159040, "BaseProfit": 5000000, "BaseTime": 72.0,
+            "Icon": { "Name": "film", "Color": "black" } },
+        { "Name": "Bank", "BaseCost": 2149908480, "BaseProfit": 10000000, "BaseTime": 91.0,
+            "Icon": { "Name": "university", "Color": "gray" } },
+        { "Name": "Oil Company", "BaseCost": 25798901760, "BaseProfit": 100000000, "BaseTime": 127.0,
+            "Icon": { "Name": "burn", "Color": "black" } }
+    ],
+    "Managers": [
+        { "BusinessName": "Lemonade Stand", "Cost": 1000, "Name": "Lemon Manager", "Desc": "Manages lemonade stands" },
+        { "BusinessName": "Newspaper Delivery", "Cost": 15000, "Name": "Newspaper Manager", "Desc": "Manages newspaper deliveryies" },
+        { "BusinessName": "Car Wash", "Cost": 100000, "Name": "Car Wash Manager", "Desc": "Manages car washes" },
+        { "BusinessName": "Pizza Delivery", "Cost": 500000, "Name": "Pizza Manager", "Desc": "Manages pizza deliveries" },
+        { "BusinessName": "Cookie Shop", "Cost": 1200000, "Name": "Cookie Shops Manager", "Desc": "Manages cookie shops" },
+        { "BusinessName": "Fishing Boat", "Cost": 10000000, "Name": "Fishing Manager", "Desc": "Manages fishing boats" },
+        { "BusinessName": "Football Team", "Cost": 111111111, "Name": "Football Manager", "Desc": "Manages football teams" },
+        { "BusinessName": "Movie Studio", "Cost": 555555555, "Name": "Movie Director", "Desc": "Manages movie studios" },
+        { "BusinessName": "Bank", "Cost": 10000000000, "Name": "Bank Manager", "Desc": "Manages banks" },
+        { "BusinessName": "Oil Company", "Cost": 100000000000, "Name": "Oil Manager", "Desc": "Manages oil companies" }
+    ],
+    "Upgrades": [
+        { "BusinessName": "Lemonade Stand", "Cost": 250000 },
+        { "BusinessName": "Newspaper Delivery", "Cost": 500000 },
+        { "BusinessName": "Car Wash", "Cost": 1000000 },
+        { "BusinessName": "Pizza Delivery", "Cost": 5000000 },
+        { "BusinessName": "Cookie Shop", "Cost": 10000000 },
+        { "BusinessName": "Fishing Boat", "Cost": 25000000 },
+        { "BusinessName": "Football Team", "Cost": 500000000 },
+        { "BusinessName": "Movie Studio", "Cost": 10000000000 },
+        { "BusinessName": "Bank", "Cost": 50000000000 },
+        { "BusinessName": "Oil Company", "Cost": 100000000000 }
+    ]
+}

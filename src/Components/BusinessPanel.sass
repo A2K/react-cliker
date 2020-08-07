@@ -1,0 +1,116 @@
+
+
+.businessBuyPanel
+    width: 50%
+    cursor: pointer
+    background: gray
+    border: 3px solid gray
+    box-shadow: 0px 0px 5px inset rgba(0, 0, 0,0.5), 0px 0px 10px black
+    display: flex
+    flex-direction: column
+    align-content: center
+    align-items: center
+    justify-content: center
+
+.businessBuyPanel.canBuy
+    background: darkgray
+
+.businessBuyPanel.canBuy:hover
+    background: lightgrey
+
+.businessPanel
+    display: flex
+    flex-direction: row
+    align-items: center
+    vertical-align: top
+    text-align: center
+
+    .bussinessPanelIconBlock
+        border: 5px solid gray
+        background: #3f3f3f
+        box-shadow: 0px 0px 5px inset black, 0px 0px 10px black
+        border-radius: 50px
+        width: 100px
+        height: 100px
+        cursor: pointer
+        position: relative
+        .businessIcon
+            position: relative
+            top: 10px
+            font-size: 50px
+        .businessLevel
+            position: relative
+            top: 10px
+
+    .bussinessPanelIconBlock.active
+        box-shadow: 0px 0px 10px inset #00ff00, 0px 0px 10px black
+
+    .businessPanelControlBlock
+        border-radius: 3px
+        border: none
+        width: 250px
+        margin-left: 10px
+        box-shadow: 0px 0px 10px black
+        height: 100%
+
+.bussinessPanelIconBlock
+    display: inline-block
+
+.businessPanelControlBlock
+    display: inline-block
+    height: 100%
+
+.businessPanelProgress
+    position: relative
+    height: 50%
+    cursor: pointer
+
+.businessPanelProfit
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    text-align: center
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
+
+@keyframes wiggle
+    0%
+       transform: rotate(0deg)
+    80%
+       transform: rotate(0deg)
+    85%
+       transform: rotate(15deg)
+    95%
+       transform: rotate(-15deg)
+    100%
+      transform: rotate(0deg)
+
+.businessIconWrapper
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    align-content: center
+
+.businessStartIcon
+    display: none
+    opacity: 50%
+
+.businessIcon
+    animation: wiggle 2.5s infinite
+
+.bussinessPanelIconBlock.active .businessIcon
+    animation: none
+
+.bussinessPanelIconBlock:hover.active .businessIconWrapper .businessStartIcon
+    display: none
+
+.bussinessPanelIconBlock:hover .businessIconWrapper .businessStartIcon
+    display: block
+    font-size: 50px
+    position: absolute
+    top: 10px

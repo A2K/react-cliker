@@ -1,0 +1,61 @@
+.businessBuyButton
+    position: relative
+    display: inline-block
+    cursor: pointer
+    width: 100%
+    background: gray
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+    border-bottom: 3px solid gray
+    border-left: 3px solid gray
+    border-right: 3px solid gray
+    border-top: 1px solid gray
+    height: 50%
+    display: flex
+    align-items: center
+    align-content: center
+    justify-content: center
+
+.businessBuyButton.canBuy
+    background: darken(orange, 5%)
+
+.businessBuyButton.canBuy:hover
+    background: green
+
+.businessBuyButton.canBuy:active
+    background: #00ff00
+
+.businessBuyLabel
+    display: inline-block
+    position: relative
+    padding-right: 10px
+
+.businessBuyPrice
+    display: inline-block
+
+.businessBuyPrice.scale2
+    font-size: calc(7.5px + 2vmin)
+
+.businessBuyPrice.scale3
+    font-size: calc(5px + 2vmin)
+
+.businessBuyPrice.scale4
+    font-size: calc(1px + 2vmin)
+
+.businessBuyPrice.scale5
+    font-size: calc(2vmin)
+
+.businessBuyMultiplier
+    position: absolute
+    padding: 0
+    padding-right: 5px
+    padding-left: 5px
+    right: -15px
+    bottom: -20%
+    border-radius: 50%
+    font-size: 20px
+    height: 30px
+    background: green
+    opacity: 50%
+    border: 2px solid gray
+    overflow: hidden

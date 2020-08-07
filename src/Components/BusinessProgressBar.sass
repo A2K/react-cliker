@@ -1,0 +1,40 @@
+
+.businessPanelProgress
+    border-top-right-radius: 10px
+    border-top-left-radius: 10px
+    border-top: 3px solid gray
+    border-left: 3px solid gray
+    border-right: 3px solid gray
+    border-bottom: 1px solid gray
+    height: 50%
+    position: relative
+    display: flex
+    align-items: center
+    align-content: center
+    justify-content: center
+
+.progressBar
+    background: #5f5f5f
+    height: 100%
+    width: 100%
+    border-top-right-radius: 7px
+    border-top-left-radius: 7px
+    overflow: hidden
+    position: relative
+    display: flex
+    align-items: center
+    align-content: center
+    justify-content: center
+
+.businessPanelProgress:hover .progressBar
+    box-shadow: 0 0 5px #00ff00 inset
+
+.businessPanelProgress:hover.active .progressBar
+    box-shadow: none
+
+.progressBarProgress
+    background: #00cc00
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
